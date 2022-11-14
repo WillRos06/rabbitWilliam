@@ -55,7 +55,7 @@ async function connect(){
     
             break;
         } catch(err){
-            console.error('Error -> $(err)'+err);
+            console.error(`Error -> ${err}`);
         }
 
     }

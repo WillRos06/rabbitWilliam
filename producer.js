@@ -44,6 +44,6 @@ async function connect(){
 
 
     } catch(err){
-        console.error('Error -> $(err)'+err);
+        console.error(`Error -> ${err}`);
     }
 }
