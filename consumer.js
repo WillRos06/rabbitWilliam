@@ -27,7 +27,7 @@ async function connect(){
     for(i=0;i<rabbitSettings.length;i++){
         try{
 
-            const conn = await amqp.connect(rabbitSettings);
+            const conn = await amqp.connect(rabbitSettings[i]);
             console.log("Conexion creada...");
     
             const channel = await conn.createChannel();
